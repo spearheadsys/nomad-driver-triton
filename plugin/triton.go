@@ -160,7 +160,7 @@ func (tth *TritonTaskHandler) CreateInstance(ctx context.Context, dtc *drivers.T
 	}
 
 	// Handle Environment Variables and Metadata
-	#metadata := make(map[string]string)
+	//metadata := make(map[string]string)
 	metadata := make(map[string]interface{})
 	//cloudapi
 	envvars := make(map[string]string)

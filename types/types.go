@@ -14,7 +14,7 @@ type TaskConfig struct {
 	FWRules            map[string]string `codec:"fwrules" json:"fwrules"`
 	Package            Package           `codec:"package" json:"package"`
 	ExitStrategy       string            `codec:"exit_strategy" json:"exit_strategy"`
-	#Tags               map[string]string `codec:"tags" json:"tags"`
+	//Tags               map[string]string `codec:"tags" json:"tags"`
 	Tags               map[string]interface{} `codec:"tags" json:"tags"`
 }
 
